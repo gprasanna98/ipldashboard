@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.teamData-container {
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+  border-radius: 5px;
+  padding: 5px;
+  width: 170px;
+  background-color: #475569;
+  border: 1px solid white;
+}
+@media screen and (min-width: 768px) {
+  .teamData-container {
+    width: 400px;
+  }
+}
+.team-container {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .team-container {
+    width: 90%;
+  }
+}
+.team-logo {
+  height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .team-logo {
+    height: 80px;
+  }
+}
+.team-name {
+  font-size: 10px;
+  color: white;
+  font-family: Bree Serif;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 20px;
+  }
+}

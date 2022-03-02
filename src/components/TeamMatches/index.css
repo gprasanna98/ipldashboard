@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.team-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 100vh;
+}
+.active-banner-image {
+  height: 30vh;
+  margin: 10px;
+  border: 1px solid white;
+  width: 98%;
+}
+@media screen and (min-width: 768px) {
+  .active-banner-image {
+    height: 40vh;
+  }
+}
+.image {
+  height: 30vh;
+  width: 98%;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 40vh;
+  }
+}

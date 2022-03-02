@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.recent-match-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-container {
+  width: 250px;
+  background-color: #0f172a;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 400px;
+  }
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.match-logo {
+  height: 150px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .match-logo {
+    height: 200px;
+  }
+}
+.team-name {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 20px;
+  }
+}
+.team-result {
+  color: white;
+  font-size: 10px;
+  font-family: Bree Serif;
+}
+.team-status {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+}
