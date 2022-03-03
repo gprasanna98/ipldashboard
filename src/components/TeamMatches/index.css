@@ -26,3 +26,8 @@
     height: 40vh;
   }
 }
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -63,11 +63,11 @@ class TeamMatches extends Component {
             <div className="active-banner-image">
               <img src={teamBannerUrl} alt="team banner" className="image" />
             </div>
-            <ul>
-              <LatestMatch latestMatchDetails={latestMatchDetails} />
-            </ul>
-            <ul>
-              <MatchCard recentMatches={recentMatches} />
+            <LatestMatch latestMatchDetails={latestMatchDetails} />
+            <ul className="list-container">
+              {recentMatches.map(eachTeam => (
+                <MatchCard key={eachTeam} recentMatches={eachTeam} />
+              ))}
             </ul>
           </div>
         )}

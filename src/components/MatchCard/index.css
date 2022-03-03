@@ -1,8 +1,6 @@
 /* Write your CSS here */
 .recent-match-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  list-style-type: none;
 }
 .card-container {
   width: 250px;
@@ -13,7 +11,7 @@
 }
 @media screen and (min-width: 768px) {
   .card-container {
-    width: 400px;
+    width: 320px;
   }
 }
 .logo {
